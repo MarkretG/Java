@@ -12,6 +12,7 @@ public class InsertElementAtPositionOnArray {
               array1[i]=array1[i-1];
         }
         array1[position]=element;
+        //
         for (int i=0;i<arraySize+1;i++)
             System.out.println(array1[i]);
 
