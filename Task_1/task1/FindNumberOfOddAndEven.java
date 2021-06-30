@@ -7,7 +7,7 @@ public class FindNumberOfOddAndEven {
         {
             if(array1[i]%2==0)
                 evenCount++;
-            if(array1[i]%2!=0)
+            else
                 oddCount++;
 
         }
