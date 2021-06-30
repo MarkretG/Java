@@ -11,7 +11,7 @@ public class CommonElementBetweenTwoNumericArray {
         System.out.println("common element");
         for (int i = 0; i < array1Size; i++) {
             for (int j = 0; j < array2Size; j++) {
-                if (array1[i] == (array2[j]))
+                if (array1[i] == array2[j])
                     System.out.println(array1[i]);
             }
         }
