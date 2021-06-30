@@ -1,7 +1,5 @@
 package task1;
-import java.util.Scanner;
 public class CommonElementBetweenTwoNumericArray {
-    static Scanner sc = new Scanner(System.in);
     public static void findCommonElement(int[] array1,int[] array2)
     {
         int array1Size=array1.length;
