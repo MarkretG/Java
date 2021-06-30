@@ -1,7 +1,5 @@
 package task1;
-import java.util.Scanner;
 public class FindAverageValueExceptMaxMin {
-    static Scanner sc = new Scanner(System.in);
     public static void findAverage(int[] array1) {
         int arraySize=array1.length;
         int max, min, sum = 0;

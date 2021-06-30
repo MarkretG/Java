@@ -1,7 +1,5 @@
 package task1;
-import java.util.Scanner;
 public class RemoveDuplicate {
-    static Scanner sc = new Scanner(System.in);
     public  static void  removeDuplicate(int[] array1) {
         int arraySize=array1.length;
         for (int i = 0; i < arraySize; i++) {

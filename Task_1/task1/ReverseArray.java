@@ -1,7 +1,5 @@
 package task1;
-import java.util.Scanner;
 public class ReverseArray {
-    static Scanner sc=new Scanner(System.in);
     public static void reverseArray(int[] array1)
     {
         int arraySize=array1.length;
