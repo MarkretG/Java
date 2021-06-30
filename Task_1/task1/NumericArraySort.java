@@ -1,5 +1,6 @@
 package task1;
 import java.util.Scanner;
+import java.util.Arrays;
 public class NumericArraySort {
     static Scanner sc=new Scanner(System.in);
     public static void sortArray(int[] array1) {
