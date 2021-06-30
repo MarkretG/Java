@@ -1,7 +1,5 @@
 package task1;
-
 import java.util.Scanner;
-
 public class RemoveSpecificElementOnArray {
     static Scanner sc = new Scanner(System.in);
     public static void removeElement(int[] array1) {

@@ -1,7 +1,5 @@
 package task1;
-
 import java.util.Scanner;
-
 public class Array {
     static Scanner sc=new Scanner(System.in);
     public static int[] getElementsOfNumericArray()
@@ -12,6 +10,7 @@ public class Array {
         System.out.println("enter array elements");
         for (int i = 0; i < arraySize; i++)
             array1[i] = sc.nextInt();
+
         return array1;
     }
     public static String[] getElementsOfStringArray()

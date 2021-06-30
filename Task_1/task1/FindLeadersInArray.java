@@ -1,7 +1,5 @@
 package task1;
-
 import java.util.Scanner;
-
 public class FindLeadersInArray {
     static Scanner sc = new Scanner(System.in);
     public static void findLeaders(int[] array1) {

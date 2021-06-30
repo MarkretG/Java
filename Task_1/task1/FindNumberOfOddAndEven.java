@@ -1,7 +1,5 @@
 package task1;
-
 import java.util.Scanner;
-
 public class FindNumberOfOddAndEven {
     static int evenCount=0,oddCount=0;
     static Scanner sc=new Scanner(System.in);
