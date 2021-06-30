@@ -4,17 +4,22 @@ public class InsertElementAtPositionOnArray {
     static Scanner sc=new Scanner(System.in);
     public static void insertElement(int[] array1) {
         int arraySize=array1.length;
+        int[] newArray=new int[arraySize+1];
         System.out.println("which position you want to insert element");
         int position = sc.nextInt();
+        System.out.println("which element you want to insert");
         int element=sc.nextInt();
-        for(int i=arraySize;i>position;i--)
+        for(int i=0;i<=arraySize;i++)
         {
-              array1[i]=array1[i-1];
+            if(position>i)
+                newArray[i]=array1[i];
+            else if(position==i)
+                newArray[i]=element;
+            else
+                newArray[i]=array1[i-1];
         }
-        array1[position]=element;
-        //
-        for (int i=0;i<arraySize+1;i++)
-            System.out.println(array1[i]);
+        for (int i=0;i<newArray.length;i++)
+            System.out.println(newArray[i]);
 
 
     }
