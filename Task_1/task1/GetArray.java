@@ -1,6 +1,6 @@
 package task1;
 import java.util.Scanner;
-public class Array {
+public class GetArray {
     static Scanner sc=new Scanner(System.in);
     public static int[] getElementsOfNumericArray()
     {
