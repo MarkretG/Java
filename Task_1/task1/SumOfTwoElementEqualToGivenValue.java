@@ -4,14 +4,9 @@ import java.util.Scanner;
 
 public class SumOfTwoElementEqualToGivenValue {
     static Scanner sc=new Scanner(System.in);
-    public static void sumOfTwoElement() {
+    public static void sumOfTwoElement(int[] array1) {
+        int arraySize=array1.length;
         int flag=0;
-        System.out.println("enter array size");
-        int arraySize = sc.nextInt();
-        int[] array1 = new int[arraySize];
-        System.out.println("enter array elements");
-        for (int i = 0; i < arraySize; i++)
-            array1[i] = sc.nextInt();
         System.out.println("enter target value");
         int targetValue=sc.nextInt();
         for(int i=0;i<arraySize;i++)

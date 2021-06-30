@@ -2,14 +2,9 @@ package task1;
 import java.util.Scanner;
 public class NumericArraySort {
     static Scanner sc=new Scanner(System.in);
-    public static void sortArray() {
+    public static void sortArray(int[] array1) {
+        int arraySize=array1.length;
         int temp;
-        System.out.println("enter array size");
-        int arraySize = sc.nextInt();
-        int[] array1 = new int[arraySize];
-        System.out.println("enter array elements");
-        for (int i = 0; i < arraySize; i++)
-            array1[i] = sc.nextInt();
         // Arrays.sort(array1);
         for (int i=0;i<arraySize;i++)
         {

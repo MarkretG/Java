@@ -4,20 +4,10 @@ import java.util.Scanner;
 
 public class CommonElementBetweenTwoStringArrays {
     static Scanner sc=new Scanner(System.in);
-    public static void findCommonElement()
+    public static void findCommonElement(String[] array1,String[] array2)
     {
-        System.out.println("enter array size");
-        int array1Size = sc.nextInt();
-        int array2Size=sc.nextInt();
-        String[] array1 = new String[array1Size];
-        String[] array2=new  String[array1Size];
-        System.out.println("enter array1 elements");
-        sc.nextLine();
-        for (int i = 0; i < array1Size; i++)
-            array1[i] = sc.nextLine();
-        System.out.println("enter array2 elements");
-        for(int i=0;i<array2Size;i++)
-           array2[i]=sc.nextLine();
+        int array1Size=array1.length;
+        int array2Size=array2.length;
         System.out.println("common element");
         for(int i=0;i<array1Size;i++)
         {

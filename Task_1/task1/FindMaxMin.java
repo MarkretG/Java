@@ -4,14 +4,9 @@ import java.util.Scanner;
 
 public class FindMaxMin {
     static Scanner sc=new Scanner(System.in);
-    public static void findMaxMin() {
+    public static void findMaxMin(int[] array1) {
+        int arraySize=array1.length;
         int max,min;
-        System.out.println("enter array size");
-        int arraySize = sc.nextInt();
-        int[] array1 = new int[arraySize];
-        System.out.println("enter array elements");
-        for (int i = 0; i < arraySize; i++)
-            array1[i] = sc.nextInt();
         max=array1[0];
         min=array1[0];
         for(int i=0;i<arraySize;i++)

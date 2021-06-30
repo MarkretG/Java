@@ -5,18 +5,9 @@ import java.util.Scanner;
 public class CommonElementBetweenTwoNumericArray {
     static Scanner sc = new Scanner(System.in);
 
-    public static void findCommonElement() {
-        System.out.println("enter array size");
-        int array1Size = sc.nextInt();
-        int array2Size = sc.nextInt();
-        int[] array1 = new int[array1Size];
-        int[] array2 = new int[array2Size];
-        System.out.println("enter array1 elements");
-        for (int i = 0; i < array1Size; i++)
-            array1[i] = sc.nextInt();
-        System.out.println("enter array2 elements");
-        for (int i = 0; i < array2Size; i++)
-            array2[i] = sc.nextInt();
+    public static void findCommonElement(int[] array1,int[] array2) {
+        int array1Size=array1.length;
+        int array2Size=array2.length;
         System.out.println("common element");
         for (int i = 0; i < array1Size; i++) {
             for (int j = 0; j < array2Size; j++) {

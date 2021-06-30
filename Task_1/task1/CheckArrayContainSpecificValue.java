@@ -5,13 +5,8 @@ import java.util.Scanner;
 public class CheckArrayContainSpecificValue {
     static Scanner sc = new Scanner(System.in);
 
-    public static void checkArrayContainsOrNot() {
-        System.out.println("enter array size");
-        int arraySize = sc.nextInt();
-        int[] array1 = new int[arraySize];
-        System.out.println("enter array elements");
-        for (int i = 0; i < arraySize; i++)
-            array1[i] = sc.nextInt();
+    public static void checkArrayContainsOrNot(int[] array1) {
+        int arraySize=array1.length;
         System.out.println("give element to check");
         int element = sc.nextInt();
         boolean isContain=false;
