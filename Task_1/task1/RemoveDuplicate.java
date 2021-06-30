@@ -8,14 +8,14 @@ public class RemoveDuplicate {
                 for (int j = i + 1; j < arraySize; j++)
                 {
                     if (array1[i] == array1[j])
-                        array1[j] ='0';
+                        array1[j] =-1;
                 }
             }
 
         }
         for(int i=0;i<arraySize;i++)
         {
-            if(array1[i]!='0')
+            if(array1[i]!=-1)
                 System.out.println(array1[i]);
         }
     }
