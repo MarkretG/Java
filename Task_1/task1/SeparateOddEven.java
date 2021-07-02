@@ -9,7 +9,7 @@ public class SeparateOddEven {
                int temp=array1[n];
                array1[n++]=array1[i];
                array1[i]=temp;
-            
+            }
         }
         for (int j=0;j<arraySize;j++)
         {
