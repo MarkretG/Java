@@ -3,11 +3,11 @@ package task2;
 import java.util.Date;
 
 public class PoJoClassForStudent {
-    String name;
-    int regNo;
-    String rollNo;
-    int age;
-    String department;
+   private String name;
+   private int regNo;
+   private String rollNo;
+   private int age;
+    private String department;
 
     public PoJoClassForStudent(String name, int regNo, String rollNo, int age, String department) {
         this.name = name;
