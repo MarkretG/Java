@@ -45,7 +45,7 @@ public class Task2Runner {
                     obj.setRollNo("17CS020");
                     obj.setAge(21);
                     obj.setDepartment("Cse");
-                    System.out.println("Name:"+obj.getName()+"\n"+"Reg no:"+obj.getRegNo()+"\n"+"Roll no"+obj.getRollNo()+"\n"+"Age:"+obj.getAge()+"\n"+"Department:"+obj.getDepartment());
+                    System.out.println(obj);
                     break;
                 case 8:
                     ConstructorOverloadedForUser obj1=new ConstructorOverloadedForUser("kani");
