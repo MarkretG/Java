@@ -39,8 +39,13 @@ public class Task2Runner {
                     ConvertArrayToArrayList.convertToArrayList(inputArray);
                     break;
                 case 7:
-                    PoJoClassForStudent obj=new PoJoClassForStudent("vino",171517,"17cs020",21,"CSE");
-                    System.out.println(obj.toString());
+                    PoJoClassForStudent obj=new PoJoClassForStudent();
+                    obj.setName("vino");
+                    obj.setRegNo(1715017);
+                    obj.setRollNo("17CS020");
+                    obj.setAge(21);
+                    obj.setDepartment("Cse");
+                    System.out.println("Name:"+obj.getName()+"\n"+"Reg no:"+obj.getRegNo()+"\n"+"Roll no"+obj.getRollNo()+"\n"+"Age:"+obj.getAge()+"\n"+"Department:"+obj.getDepartment());
                     break;
                 case 8:
                     ConstructorOverloadedForUser obj1=new ConstructorOverloadedForUser("kani");
