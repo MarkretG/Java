@@ -23,11 +23,13 @@ public class Task2Runner {
                     AlternateSort.alternateSort(inputArray);
                     break;
                 case 4:
+                    System.out.println("enter the string");
                     sc.nextLine();
                     String str1=sc.nextLine();
                     ReverseString.reverse(str1);
                     break;
                 case 5:
+                    System.out.println("enter the sentence");
                     sc.nextLine();
                     String str2=sc.nextLine();
                     ReverseWords.reverse(str2);
