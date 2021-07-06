@@ -5,6 +5,17 @@ public class PoJoClassForStudent {
    private String rollNo;
    private int age;
     private String department;
+   
+    @Override
+    public String toString() {
+        return "PoJoClassForStudent{" +
+                "name='" + name + '\'' +
+                ", regNo=" + regNo +
+                ", rollNo='" + rollNo + '\'' +
+                ", age=" + age +
+                ", department='" + department + '\'' +
+                '}';
+    }
 
     public String getName() {
         return name;
