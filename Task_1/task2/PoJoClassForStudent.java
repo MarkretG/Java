@@ -1,32 +1,10 @@
 package task2;
-
-import java.util.Date;
-
 public class PoJoClassForStudent {
    private String name;
    private int regNo;
    private String rollNo;
    private int age;
     private String department;
-
-    public PoJoClassForStudent(String name, int regNo, String rollNo, int age, String department) {
-        this.name = name;
-        this.regNo = regNo;
-        this.rollNo = rollNo;
-        this.age = age;
-        this.department = department;
-    }
-
-    @Override
-    public String toString() {
-        return "PoJoClassForStudent{" +
-                "name='" + name + '\'' +
-                ", regNo=" + regNo +
-                ", rollNo='" + rollNo + '\'' +
-                ", age=" + age +
-                ", department='" + department + '\'' +
-                '}';
-    }
 
     public String getName() {
         return name;
@@ -36,12 +14,16 @@ public class PoJoClassForStudent {
         this.name = name;
     }
 
-    public int getRollNo() {
+    public int getRegNo() {
         return regNo;
     }
 
-    public void setRollNo(int regNo) {
+    public void setRegNo(int regNo) {
         this.regNo = regNo;
+    }
+
+    public String getRollNo() {
+        return rollNo;
     }
 
     public void setRollNo(String rollNo) {
