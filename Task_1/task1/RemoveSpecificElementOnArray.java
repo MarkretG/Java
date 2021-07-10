@@ -3,23 +3,15 @@ import java.util.Scanner;
 public class RemoveSpecificElementOnArray {
     static Scanner sc = new Scanner(System.in);
     public static void removeElement(int[] array1) {
-        int arraySize=array1.length;
         System.out.println("which element you want to remove");
         int element = sc.nextInt();
-        for(int i=0;i<arraySize;i++)
+        int j=0;
+        for(int i=0;i<array1.length;i++)
         {
-            if(array1[i]==element)
-            {
-                int start=i;
-                for (int j=start;j<arraySize;j++) {
-                    if(j+1<arraySize)
-                      array1[j] = array1[j + 1];
-                }
-                break;
-            }
-
+            if(array1[i]!=element)
+               array1[j++]=array1[i];       
         }
-        for (int i=0;i<arraySize-1;i++)
+        for (int i=0;i<j;i++)
             System.out.println(array1[i]);
 
 
