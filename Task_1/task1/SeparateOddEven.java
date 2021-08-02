@@ -1,7 +1,7 @@
 package task1;
 public class SeparateOddEven {
     public static void separateEvenOdd(int[] array1) {
-       int[] newArray=new int[arra1.length];
+       int[] newArray=new int[array1.length];
         int evenCount=0,n=0;
         for(int i=0;i<array1.length;i++) 
         {
@@ -10,7 +10,7 @@ public class SeparateOddEven {
         }
         for(int i=0;i<array1.length;i++)
         {
-            if(arry1[i]%2==0)
+            if(array1[i]%2==0)
                 newArray[n++]=array1[i];
             else
                 newArray[evenCount++]=array1[i];
